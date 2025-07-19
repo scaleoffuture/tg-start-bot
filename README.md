@@ -9,7 +9,7 @@ env\Scripts\activate
 pip install python-telegram-bot
 
 
-or
+         or
 
 
 python -m venv venv
