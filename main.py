@@ -83,7 +83,7 @@ async def remind(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("⌛ Напоминаю!")
 
 
-app = ApplicationBuilder().token("7915074151:AAH-KZwzl1PRQF1cIVZdipuWYGuuWDNqxho").build()
+app = ApplicationBuilder().token("YOUR TOKEN").build()
 
 # commands of the bot
 app.add_handler(CommandHandler("start", start))
